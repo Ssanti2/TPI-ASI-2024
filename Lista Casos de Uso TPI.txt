@@ -1,0 +1,50 @@
+DIAGRAMA DE CASOS DE USO: 
+
+ACTORES:
+-Personal de Recepción
+-Inspector
+-Supervisor
+-Cajero
+-Responsable de Administración
+
+Personal de Recepción:
+1-Registrar revisión
+2-Modificar revisión
+30-Consultar número de verificación.
+32-Consultar cita
+3-Registrar datos del cliente (extend de 1) #Soporte
+4-Consultar datos del cliente
+5-Modificar datos del cliente
+6-Registrar datos del vehículo(extend de 1)
+7-Consultar datos del vehículo
+8-Modificar datos del vehículo
+9-Validar datos del vehículo (include de 3) #Puede ser que este dentro de registrar datos del vehículo
+31-Emitir comprobante (extend de 30)
+
+Inspector:
+10-Registrar resultados de medición
+11-Modificar resultados de medición
+12-Registrar defectos visuales
+13-Modificar defectos visuales
+14-Consultar lista de defectos visuales(include de 6)
+15-Consultar revisión
+
+Supervisor:
+16-Consultar datos de medición(include de 18) #Puede ser consultar datos de inspección
+17-Consultar defectos visuales (include de 18)
+18-Registrar resultado de revisión
+19-Consultar resultado de revisión
+20-Modificar resultado de revisión
+21-Emitir informe
+22-Emitir oblea (extend de 21)
+
+Cajero:
+23-Registrar cobro
+24-Consultar cobro
+25-Modificar cobro
+
+Responsable Administrativo:
+26-Registrar lista de defectos visuales #Soporte
+27-Modificar lista de defectos visuales
+28-Registrar empleado #Soporte
+29-Registrar rol #Soporte
