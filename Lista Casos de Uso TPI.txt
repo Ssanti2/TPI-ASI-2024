@@ -8,24 +8,17 @@ ACTORES:
 -Responsable de Administración
 
 Personal de Recepción:
-1-Registrar revisión
-2-Modificar revisión
 30-Consultar número de verificación.
-32-Consultar cita
-3-Registrar datos del cliente (extend de 1) #Soporte
-4-Consultar datos del cliente
+32-Consultar turno
+3-Registrar datos del cliente (extend de 32) #Soporte
 5-Modificar datos del cliente
-6-Registrar datos del vehículo(extend de 1)
-7-Consultar datos del vehículo
+6-Registrar datos del vehículo(extend de 32)
 8-Modificar datos del vehículo
-9-Validar datos del vehículo (include de 3) #Puede ser que este dentro de registrar datos del vehículo
 31-Emitir comprobante (extend de 30)
 
 Inspector:
-10-Registrar resultados de medición
-11-Modificar resultados de medición
-12-Registrar defectos visuales
-13-Modificar defectos visuales
+10-Registrar datos de medición
+12-Registrar defectos visuales 
 14-Consultar lista de defectos visuales(include de 6)
 15-Consultar revisión
 
@@ -34,17 +27,35 @@ Supervisor:
 17-Consultar defectos visuales (include de 18)
 18-Registrar resultado de revisión
 19-Consultar resultado de revisión
-20-Modificar resultado de revisión
 21-Emitir informe
 22-Emitir oblea (extend de 21)
 
 Cajero:
+1-Registrar revisión técnica vehicular (extend cliente) (extend vehículo)
+2-Modificar revisión técnica vehicular
 23-Registrar cobro
 24-Consultar cobro
 25-Modificar cobro
 
-Responsable Administrativo:
-26-Registrar lista de defectos visuales #Soporte
+Responsable Administrativo: #son todos casos de Soporte
+26-Registrar lista de defectos visuales 
 27-Modificar lista de defectos visuales
-28-Registrar empleado #Soporte
-29-Registrar rol #Soporte
+28-Registrar nuevo empleado
+29-Registrar rol
+33-Dar de alta oblea
+34-Dar de baja oblea
+38-Registrar nueva línea de inspección 
+39-Consultar línea de inspección 
+40-Modificar línea de inspección 
+35-Registrar nueva máquina
+36- Consultar máquina
+37- Modificar máquina
+
+RNF:
+El sistema debe estar capacitado para que no haya bloqueo de cajas (al menos 3 cajas deben trabajar simultáneamente)
+Backup
+Funcionalidades por roles
+Comunicación entre nuestro software y el de las maquinas
+Estándares de pruebas (legal)
+El informe se entrega en formato papel y se envia en formato pdf
+
