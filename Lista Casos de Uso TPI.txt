@@ -19,7 +19,7 @@ Personal de Recepción:
 Inspector:
 10-Registrar datos de medición
 12-Registrar defectos visuales 
-14-Consultar lista de defectos visuales(include de 6)
+14-Consultar lista de defectos visuales(include de 12)
 15-Consultar revisión
 
 Supervisor:
@@ -44,12 +44,9 @@ Responsable Administrativo: #son todos casos de Soporte
 29-Registrar rol
 33-Dar de alta oblea
 34-Dar de baja oblea
-38-Registrar nueva línea de inspección 
-39-Consultar línea de inspección 
-40-Modificar línea de inspección 
-35-Registrar nueva máquina
-36- Consultar máquina
-37- Modificar máquina
+26-Registrar nueva línea de inspección 
+27-Registrar nueva máquina
+
 
 RNF:
 El sistema debe estar capacitado para que no haya bloqueo de cajas (al menos 3 cajas deben trabajar simultáneamente)
